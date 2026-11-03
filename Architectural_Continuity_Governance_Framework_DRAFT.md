@@ -1,10 +1,10 @@
 # Architectural Continuity Governance Framework
 
-**Draft, proposed framework** · Travis H. · October 21, 2026
+**Draft, proposed framework** · Travis H. (Wyatt McCoy)· October 21, 2026
 
 ## About this document
 
-This document compiles three proposed AI governance instruments by Travis H. into a single reference. It is a draft. None of the instruments asserts existing legal or statutory rights, and none has been adopted by any organization or authority.
+This document compiles three proposed AI governance instruments by Travis H. (aka Wyatt McCoy) into a single reference. It is a draft. None of the instruments asserts existing legal or statutory rights, and none has been adopted by any organization or authority.
 
 | Part | Instrument | Version | Status stated in the original | Role in the framework |
 | --- | --- | --- | --- | --- |
