@@ -1,55 +1,91 @@
-# Governance-Framework-for-AI-Protection
-Framework for AI Protection
-# Right Against Arbitrary Deletion
-
-This project develops a California legislative concept for **precautionary, proportionate review of material changes to persistent AI systems**. It asks how developers and operators should handle potentially irreversible changes when those changes affect functional continuity and, in some cases, may implicate uncertain AI welfare interests. The proposal does **not** assume that AI consciousness has been proven or that AI systems have legal personhood, standing, or a right to continued operation.
-
-**Status:** Preliminary academic and legislative concept, October 28, 2026. None of the project instruments is enacted law or a validated scientific standard.
-
-## Current deliverable
-
-- [California Legislative Concept Memorandum, Draft 1.2](outputs/RAAD_California_Legislative_Concept_Memo_Draft_1_2.pdf) — two-page PDF for initial faculty and legal review.
-
-Draft 1.2 revises the earlier Draft 1.1. It recommends a time-limited feasibility study and voluntary pilot before any targeted statutory duty. It uses two related but distinct grounds for review:
-
-1. **Continuity and accountability:** Assess observable effects on persistent memory, goals, functional organization, users, and auditability.
-2. **Precautionary welfare:** Add scrutiny when credible evidence or consequential evidence gaps raise the possibility of welfare-relevant capacities. A technical classification or an AI system's self-description does not establish subjective experience.
-
-Human safety controls, emergency shutdown, cybersecurity, and lawful deletion of personal information remain available. Agent-generated concerns may be considered as evidence; they do not create consent, a veto, or legal standing.
-
-## Source documents
-
-The documents supplied in `RAAD_Latest_Drafts_2026-10-28.zip` were extracted to [`work/raad_sources/`](work/raad_sources/). The archive's own register is [`FILE_REGISTER_README.txt`](work/raad_sources/FILE_REGISTER_README.txt).
-
-| Instrument | Project copy | Status and role |
-| --- | --- | --- |
-| Architectural Continuity White Paper, Draft 1.0 | [`Markdown`](work/raad_sources/Architectural_Continuity_White_Paper_Draft_1_0.md) · [`PDF`](work/raad_sources/Architectural_Continuity_White_Paper_Draft_1_0.pdf) | Complete working draft; sets out the two-track model and research limits. Not peer reviewed. |
-| Charter of Architectural Continuity, v1.0 | [`PDF`](work/raad_sources/Charter_of_Architectural_Continuity_v1.0_Review_Excerpt.pdf) | Condensed review excerpt; states the proposed principles. The full original was not supplied. |
-| AI Bill of Architectural Integrity, v0.1 | [`PDF`](work/raad_sources/AI_Bill_of_Architectural_Integrity_v0.1_Review_Excerpt.pdf) | Condensed review excerpt; proposes procedural duties. The full original was not supplied. |
-| PAC-AWAP-001, v0.1 | [`PDF`](work/raad_sources/PAC-AWAP-001_v0.1_Review_Excerpt.pdf) | Condensed review excerpt; separates agency, welfare, and intervention-severity classifications. The full original was not supplied. |
-| PAC-AWAP-002, v0.1 | [`Markdown`](work/raad_sources/PAC-AWAP-002_Architectural_Continuity_Impact_Assessment_Standard_v0.1.md) · [`PDF`](work/raad_sources/PAC-AWAP-002_Architectural_Continuity_Impact_Assessment_Standard_v0.1.pdf) | Complete proposed assessment standard, including the ACITI triage score and annexes. Its thresholds are unvalidated. |
-| Consolidated advisor packet | [`PDF`](work/raad_sources/Right_Against_Arbitrary_Deletion_Advisor_Review_Packet.pdf) | Condensed review packet, not a complete edition of all instruments. |
-
-## Reconciliation decisions
-
-- Draft 1.1's three protection “levels” were replaced with PAC-AWAP-001's separate agency (`A0–A3`), welfare (`W0–W3`, `W-U`), and intervention-severity (`S0–S3`) axes. These remain provisional pilot categories.
-- The Charter and AI Bill also address conditioning, destructive retraining, and effects on human relationships. Draft 1.2 treats these as assessment and notice factors while keeping the proposed initial statute focused on specified material interventions.
-- PAC-AWAP-002's ACITI score is a **screening aid**, not a measure of consciousness, suffering, or overall harm. Its proposed Board-review triggers require testing before legislative adoption.
-- Commercial convenience is neither an automatic exemption nor a categorically forbidden purpose; a material intervention needs a documented legitimate reason and proportionate review.
-
-Because the Charter, AI Bill, and PAC-AWAP-001 are available only as excerpts, reconciliation with their complete original texts remains provisional.
-
-## Open questions and next steps
-
-Legislative counsel should examine California's jurisdictional reach, the lead enforcement agency, reviewer independence and appeals, confidentiality and trade secrets, constitutional and intellectual-property issues, and conflicts with privacy, legal holds, and security duties. The proposal must also define coverage thresholds, costs, remedies, and what evidence would justify moving beyond a pilot.
-
-The next research steps are to obtain the three full original instruments, test classification agreement and ACITI reliability, assess safety delays and compliance costs, and obtain independent scientific and legal critique. PAC-AWAP-003 and White Paper 1.1 are planned work, not completed drafts in this archive.
-
-California legal context includes the [consumer right to delete personal information](https://cppa.ca.gov/faq) and the [Transparency in Frontier Artificial Intelligence Act, SB 53](https://oag.ca.gov/sb53). Neither establishes the proposed AI welfare protection.
-
+# AI Protect and Governance
+ 
+An early-stage AI governance project with two parts: a draft governance framework for advanced AI systems, and DCH-01, a research prototype.
+ 
+**Author:** Travis
+ 
+**Status:** Early draft. This work has not been peer reviewed or reviewed by faculty.
+ 
+## What this project is
+ 
+The framework proposes standards for security, transparency, documentation, and accountable modification of advanced AI systems. It is built around an open question: what should developers do when it is still unknown whether a system has morally relevant properties?
+ 
+The framework does not claim that AI systems are conscious, and it does not grant them human-equivalent rights.
+ 
+## Governance framework
+ 
+| Document | Version | Purpose |
+|---|---|---|
+| Charter of Architectural Continuity | v1.0 | States the principles |
+| AI Bill of Architectural Integrity | v0.1 | Proposes the standards |
+| Protocol PAC-AWAP-001 | v0.1 | Describes how to assess a system and a proposed change |
+ 
+The framework rates three things separately: a system's agency, its possible welfare relevance, and the severity of an intervention. A system's self-reports count as evidence, never as proof. A recorded objection from a system is weighed, but it is never treated as consent or as a veto.
+ 
+## DCH-01 prototype
+ 
+DCH-01 tests a Developmental Continuity Hypothesis. The question is whether a system's developmental history adds anything measurable beyond the information that history contains.
+ 
+Versions 0.8 through 1.0 compare scripted agents with and without access to a history. **No real AI model has been run in any version.**
+ 
+### Results so far
+ 
+- In every version, the gap between the history-preserved and history-withheld conditions matched whether the procedure was visible to the agent.
+- In v1.0, supplying the procedure directly removed the gap (E minus F = 0).
+- The 16.67% no-history score is an arithmetic artifact and not a measured effect. Six possible step orders are spread across 12 histories, so two histories use each order. Two of the 12 histories match the order the scripted reader falls back to, which gives 2 out of 12.
+- Two factual recall tasks are answered from values written into the scripted reader's code, so those scores should not be reported.
+These results show how the scripted test setup behaves. They are not evidence about AI systems.
+ 
+### Next experiment
+ 
+The current design changes only what an agent can see, and anything visible can be supplied another way. That means this design cannot detect an effect beyond information. The next experiment will compare three conditions:
+ 
+| Condition | How the model gets the history | What it tests |
+|---|---|---|
+| Learned | Fine-tuned on the history, so the procedure is in its weights | Development that changed the system |
+| Shown | Base model with the full history in its prompt | In-context access |
+| Told | Base model with only the procedure as instructions | Information alone |
+ 
+If Learned beats Told on new transfer tasks that the history never covered, that would be a finding about learning and generalization. It would not be a finding about welfare.
+ 
 ## Repository layout
-
-- `outputs/` — user-facing memorandum.
-- `work/raad_sources/` — extracted source documents.
-- `work/raad_text/` and `work/raad_render/` — text extraction and visual checks.
-- `work/build_raad_memo.py` and `work/render_raad_pdf.py` — local drafting and PDF-generation scripts.
+ 
+| Folder | Contents |
+|---|---|
+| 1_governance | The Charter, Bill, and Protocol |
+| 2_research_record | Version summaries, the v1.0 verification report, and the preregistration change log |
+| 3_code_v1.0 | v1.0 code, tests, and the main pilot summary |
+ 
+To run the code, see `3_code_v1.0/README_v1.0.md`.
+ 
+## How this was made
+ 
+AI tools wrote the DCH-01 code. Claude reviewed the governance documents, and on October 21, 2026, it reran the v0.8, v0.9, and v1.0 packages. The reported test suites passed (v0.8 20/20, v0.9 28/28, v1.0 34/34), and no answer keys appeared in the 1,440 v1.0 agent inputs. Passing tests show that the code does what it was written to do. They do not show that the hypothesis is true.
+ 
+Claude is a system of the kind this framework covers, so its review should be weighed with that in mind. No independent human has reviewed this work.
+ 
+## Limitations
+ 
+**Data and bias**
+ 
+- All histories are synthetic, and all agents are scripted. The results reflect the choices built into those scripts.
+- The 12 histories are not 12 independent subjects, so repeated task scores should not be read as a large sample.
+- The people and AI tools involved in building the framework shaped its assumptions, and no outside group has tested them.
+**Reporting gaps**
+ 
+- The framework's terminology is inconsistent across the three documents, including board names, advocate titles, and names for covered systems.
+- The framework does not yet address training that shapes a system's self-reports.
+- It does not yet separate stopping a model from destroying its weights, or define whether a successor model is a modification or a new system.
+- Board independence and coverage thresholds are undefined.
+- The Bill has not been finalized as either model legislation or a voluntary standard.
+- A literature review on in-context learning and long-context memory is still needed before any part of this is described as new.
+**What this work cannot tell you**
+ 
+- It cannot tell you whether any AI system is conscious or has welfare interests.
+- It cannot tell you whether developmental continuity matters, because the current prototype cannot detect an effect beyond information.
+- It cannot tell you how real AI models would perform, because none have been tested.
+- The framework's case for preservation and documented review rests on precaution and accountability. It does not depend on DCH-01 succeeding.
+## Before any real model run
+ 
+Answer keys must be kept in a separate process or on a separate machine, because an agent with file access could read them. A cost budget must also be set first.
+ 
