@@ -59,15 +59,16 @@ If Learned beats Told on new transfer tasks that the history never covered, that
 | `Right_Against_Arbitrary_Deletion_Advisor_Review_Packet.pdf` | The four instruments gathered for advisor review |
 | `PAC-AWAP-002_Architectural_Continuity_Impact_Assessment_Standard_v0.1.pdf` | The impact assessment standard |
 | `*_Review_Excerpt.pdf` | Short excerpts of the Charter, Bill, and PAC-AWAP-001 |
-| `DCH-01_v1.0_v1.1.zip` | DCH-01 v1.0 and v1.1 code, tests, results, and verification reports |
+| `v1.0/` | DCH-01 v1.0 code, tests, results, and verification report |
+| `v1.1/` | DCH-01 v1.1 code, tests, results, verification report, and design decisions |
  
-The v0.8 and v0.9 packages are not included. To run v1.1, unzip the file and see `DCH-01/v1.1/README.md`. It needs Linux and root access for setup.
+The v0.8 and v0.9 packages are not included. To run v1.1, see `v1.1/README.md`. It needs Linux and root access for setup.
  
 ## How this was made
  
 I started this project in ChatGPT and moved to Claude about halfway through. AI tools helped draft the documents and wrote the DCH-01 code. Claude reviewed the governance documents, and on October 21, 2026, it reran the v0.8, v0.9, and v1.0 packages. The reported test suites passed (v0.8 20/20, v0.9 28/28, v1.0 34/34), and no answer keys appeared in the 1,440 v1.0 agent inputs. Passing tests show that the code does what it was written to do. They do not show that the hypothesis is true.
  
-For v1.1, an AI system wrote the code, the attacks, and the tests, and it made the nine design decisions in `DECISIONS.md`. I adopted those decisions afterward as written. The v1.1 report records 19 passing tests in one Linux container. That result has not been rerun separately.
+For v1.1, an AI system wrote the code, the attacks, and the tests, and it made the nine design decisions in `v1.1/DECISIONS.md`. I adopted those decisions afterward as written. The v1.1 report records 19 passing tests in one Linux container. That result has not been rerun separately.
  
 Claude is a system of the kind this framework covers, so its review should be weighed with that in mind. No independent human has reviewed this work.
  
