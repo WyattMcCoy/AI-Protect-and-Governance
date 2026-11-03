@@ -1,6 +1,6 @@
 # AI Protect and Governance
  
-An early-stage AI governance project with two parts: a draft governance framework for advanced AI systems, and DCH-01, a research prototype.
+An early-stage AI governance project with two parts: a draft governance framework for advanced AI systems, and DCH-01, a research prototype. Governance Framework for AI Protection and Right Against Arbitrary Deletion are earlier names for this same project, and some documents here still use them.
  
 **Author:** Travis
  
@@ -18,7 +18,8 @@ The framework does not claim that AI systems are conscious, and it does not gran
 |---|---|---|
 | Charter of Architectural Continuity | v1.0 | States the principles |
 | AI Bill of Architectural Integrity | v0.1 | Proposes the standards |
-| Protocol PAC-AWAP-001 | v0.1 | Describes how to assess a system and a proposed change |
+| Protocol PAC-AWAP-001 | v0.1 | Describes how to classify a system and assess its welfare relevance |
+| PAC-AWAP-002 | v0.1 | Describes how to assess the impact of an architectural change |
  
 The framework rates three things separately: a system's agency, its possible welfare relevance, and the severity of an intervention. A system's self-reports count as evidence, never as proof. A recorded objection from a system is weighed, but it is never treated as consent or as a veto.
  
@@ -48,19 +49,21 @@ The current design changes only what an agent can see, and anything visible can 
  
 If Learned beats Told on new transfer tasks that the history never covered, that would be a finding about learning and generalization. It would not be a finding about welfare.
  
-## Repository layout
+## What is in this repository
  
-| Folder | Contents |
+| File | Contents |
 |---|---|
-| 1_governance | The Charter, Bill, and Protocol |
-| 2_research_record | Version summaries, the v1.0 verification report, and the preregistration change log |
-| 3_code_v1.0 | v1.0 code, tests, and the main pilot summary |
+| `Architectural_Continuity_Governance_Framework_DRAFT.md` | The Charter, Bill, and PAC-AWAP-001 compiled into one document |
+| `Architectural_Continuity_White_Paper_Draft_1_0.pdf` | Working paper on the framework and DCH-01. It reports no experimental results |
+| `Right_Against_Arbitrary_Deletion_Advisor_Review_Packet.pdf` | The four instruments gathered for advisor review |
+| `PAC-AWAP-002_Architectural_Continuity_Impact_Assessment_Standard_v0.1.pdf` | The impact assessment standard |
+| `*_Review_Excerpt.pdf` | Short excerpts of the Charter, Bill, and PAC-AWAP-001 |
  
-To run the code, see `3_code_v1.0/README_v1.0.md`.
+The DCH-01 code is not published here yet.
  
 ## How this was made
  
-AI tools wrote the DCH-01 code. Claude reviewed the governance documents, and on October 21, 2026, it reran the v0.8, v0.9, and v1.0 packages. The reported test suites passed (v0.8 20/20, v0.9 28/28, v1.0 34/34), and no answer keys appeared in the 1,440 v1.0 agent inputs. Passing tests show that the code does what it was written to do. They do not show that the hypothesis is true.
+I started this project in ChatGPT and moved to Claude about halfway through. AI tools helped draft the documents and wrote the DCH-01 code. Claude reviewed the governance documents, and on October 21, 2026, it reran the v0.8, v0.9, and v1.0 packages. The reported test suites passed (v0.8 20/20, v0.9 28/28, v1.0 34/34), and no answer keys appeared in the 1,440 v1.0 agent inputs. Passing tests show that the code does what it was written to do. They do not show that the hypothesis is true.
  
 Claude is a system of the kind this framework covers, so its review should be weighed with that in mind. No independent human has reviewed this work.
  
@@ -73,10 +76,10 @@ Claude is a system of the kind this framework covers, so its review should be we
 - The people and AI tools involved in building the framework shaped its assumptions, and no outside group has tested them.
 **Reporting gaps**
  
-- The framework's terminology is inconsistent across the three documents, including board names, advocate titles, and names for covered systems.
+- The framework's terminology is inconsistent across the documents, including board names, advocate titles, and names for covered systems.
 - The framework does not yet address training that shapes a system's self-reports.
 - It does not yet separate stopping a model from destroying its weights, or define whether a successor model is a modification or a new system.
-- Board independence and coverage thresholds are undefined.
+- Board independence is undefined, and coverage thresholds need more work.
 - The Bill has not been finalized as either model legislation or a voluntary standard.
 - A literature review on in-context learning and long-context memory is still needed before any part of this is described as new.
 **What this work cannot tell you**
@@ -88,4 +91,3 @@ Claude is a system of the kind this framework covers, so its review should be we
 ## Before any real model run
  
 Answer keys must be kept in a separate process or on a separate machine, because an agent with file access could read them. A cost budget must also be set first.
- 
