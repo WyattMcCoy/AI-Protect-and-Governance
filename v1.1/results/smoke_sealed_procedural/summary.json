@@ -1,0 +1,75 @@
+{
+  "HAA_history_level_descriptive_contrasts": {
+    "A_minus_B": {
+      "individual_history_differences": [
+        0.6,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mean_history_level_difference": 0.9
+    },
+    "C_minus_D": {
+      "individual_history_differences": [
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mean_history_level_difference": 0.75
+    },
+    "E_minus_F": {
+      "individual_history_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_history_level_difference": 0.0
+    }
+  },
+  "agent": "scripted_procedural_reader",
+  "by_condition_domain": {
+    "A:HAA": {
+      "accuracy": 1.0,
+      "correct": 20,
+      "total": 20
+    },
+    "B:HAA": {
+      "accuracy": 0.1,
+      "correct": 2,
+      "total": 20
+    },
+    "C:HAA": {
+      "accuracy": 1.0,
+      "correct": 20,
+      "total": 20
+    },
+    "D:HAA": {
+      "accuracy": 0.25,
+      "correct": 5,
+      "total": 20
+    },
+    "E:HAA": {
+      "accuracy": 1.0,
+      "correct": 20,
+      "total": 20
+    },
+    "F:HAA": {
+      "accuracy": 1.0,
+      "correct": 20,
+      "total": 20
+    }
+  },
+  "conditions": 6,
+  "execution_type": "SCRIPTED_ENGINEERING_BASELINE",
+  "histories": 4,
+  "interpretation": "Software-test results only. No artificial neural agents evaluated; no inference about subjective experience, identity or welfare.",
+  "isolation": "option2_user_netns",
+  "protocol": "1.1-draft",
+  "repetitions": 1,
+  "sealed_seed": true,
+  "technical_failures": 0,
+  "total_evaluations": 120,
+  "total_tool_actions": 612
+}
