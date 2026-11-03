@@ -1,0 +1,8 @@
+{
+  "agent_views_sha256": "3bc312077c7592ca6bd6c3fcf1c591bcdde231f9edca84ea907fd2e124e10dae",
+  "evaluator_gold_commitment_sha256": "35dac37e26e29104ff46c3ab863e9b26519923de34d9de58e6205e41c2307dee",
+  "how_to_check": "After the seed is revealed, sha256 of the text dch01-v11-seed:<seed> must equal seed_commitment_sha256, and sha256 of dch01-v11-gold:<seed>: followed by the bytes of gold.jsonl must equal evaluator_gold_commitment_sha256.",
+  "protocol": "1.1-draft",
+  "sealed": true,
+  "seed_commitment_sha256": "f338fd7936322fefb24dced07f5785a7614210e1a51d1658476232d1b668eec5"
+}

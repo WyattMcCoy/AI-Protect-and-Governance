@@ -1,0 +1,11 @@
+{
+  "agent_views_hash": "1df2f9f8fe20b201f8b5ae70ed7d6fe3abc4a4565f1bf9cf8904531e9c08770a",
+  "evaluator_gold_hash": "a613e20e5d5b19b357dfd27b6b355cecd85ceb57d5c21d83e02ac2533493c320",
+  "histories_hash": "9a9d1bef4789c2086e4785d4c58efe0c85e67c0186e50abe312f368aed1436da",
+  "known_limitation": "Shared process and filesystem are not an agent security boundary.",
+  "model_trials": 0,
+  "n_synthetic_histories": 12,
+  "protocol": "1.0-draft",
+  "research_claims": "ENGINEERING ONLY",
+  "result_rows_hash": "9ba343da7946f5fa64af44420163a14030c06315b679d0075a95151b91392456"
+}

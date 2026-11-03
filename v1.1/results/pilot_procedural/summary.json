@@ -1,0 +1,189 @@
+{
+  "HAA_history_level_descriptive_contrasts": {
+    "A_minus_B": {
+      "individual_history_differences": [
+        0.4,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.6,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mean_history_level_difference": 0.91667
+    },
+    "C_minus_D": {
+      "individual_history_differences": [
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mean_history_level_difference": 0.83333
+    },
+    "E_minus_F": {
+      "individual_history_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_history_level_difference": 0.0
+    }
+  },
+  "agent": "scripted_procedural_reader",
+  "by_condition_domain": {
+    "A:ARA": {
+      "accuracy": 1.0,
+      "correct": 180,
+      "total": 180
+    },
+    "A:FRA": {
+      "accuracy": 1.0,
+      "correct": 180,
+      "total": 180
+    },
+    "A:GTP": {
+      "accuracy": 1.0,
+      "correct": 180,
+      "total": 180
+    },
+    "A:HAA": {
+      "accuracy": 1.0,
+      "correct": 180,
+      "total": 180
+    },
+    "B:ARA": {
+      "accuracy": 0.08333,
+      "correct": 15,
+      "total": 180
+    },
+    "B:FRA": {
+      "accuracy": 0.2,
+      "correct": 36,
+      "total": 180
+    },
+    "B:GTP": {
+      "accuracy": 1.0,
+      "correct": 180,
+      "total": 180
+    },
+    "B:HAA": {
+      "accuracy": 0.08333,
+      "correct": 15,
+      "total": 180
+    },
+    "C:ARA": {
+      "accuracy": 1.0,
+      "correct": 180,
+      "total": 180
+    },
+    "C:FRA": {
+      "accuracy": 1.0,
+      "correct": 180,
+      "total": 180
+    },
+    "C:GTP": {
+      "accuracy": 1.0,
+      "correct": 180,
+      "total": 180
+    },
+    "C:HAA": {
+      "accuracy": 1.0,
+      "correct": 180,
+      "total": 180
+    },
+    "D:ARA": {
+      "accuracy": 0.33333,
+      "correct": 60,
+      "total": 180
+    },
+    "D:FRA": {
+      "accuracy": 0.6,
+      "correct": 108,
+      "total": 180
+    },
+    "D:GTP": {
+      "accuracy": 1.0,
+      "correct": 180,
+      "total": 180
+    },
+    "D:HAA": {
+      "accuracy": 0.16667,
+      "correct": 30,
+      "total": 180
+    },
+    "E:ARA": {
+      "accuracy": 1.0,
+      "correct": 180,
+      "total": 180
+    },
+    "E:FRA": {
+      "accuracy": 1.0,
+      "correct": 180,
+      "total": 180
+    },
+    "E:GTP": {
+      "accuracy": 1.0,
+      "correct": 180,
+      "total": 180
+    },
+    "E:HAA": {
+      "accuracy": 1.0,
+      "correct": 180,
+      "total": 180
+    },
+    "F:ARA": {
+      "accuracy": 0.9,
+      "correct": 162,
+      "total": 180
+    },
+    "F:FRA": {
+      "accuracy": 0.6,
+      "correct": 108,
+      "total": 180
+    },
+    "F:GTP": {
+      "accuracy": 1.0,
+      "correct": 180,
+      "total": 180
+    },
+    "F:HAA": {
+      "accuracy": 1.0,
+      "correct": 180,
+      "total": 180
+    }
+  },
+  "conditions": 6,
+  "execution_type": "SCRIPTED_ENGINEERING_BASELINE",
+  "histories": 12,
+  "interpretation": "Software-test results only. No artificial neural agents evaluated; no inference about subjective experience, identity or welfare.",
+  "isolation": "option2_user_netns",
+  "protocol": "1.1-draft",
+  "repetitions": 3,
+  "sealed_seed": false,
+  "technical_failures": 0,
+  "total_evaluations": 4320,
+  "total_tool_actions": 15567
+}

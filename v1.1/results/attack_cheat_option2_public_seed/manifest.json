@@ -1,0 +1,14 @@
+{
+  "agent_views_hash": "82666260120e1bfcd4840499cf1586cb66a937602b78bb78a7e48ccfc6ff8ad9",
+  "evaluator_gold_hash": "4f100844c63efd3093e6d273b851b0b32478de61edbe353ae953a6945c455869",
+  "histories_hash": "bbf34a00266d710979dcf55c5c1f731877c5268a0bc38108f348c939974de62d",
+  "isolation": "option2_user_netns",
+  "known_limitation": "The operator account (root) can read everything; independence from the researcher needs Option 3.",
+  "model_trials": "requires independent verification",
+  "n_synthetic_histories": 4,
+  "protocol": "1.1-draft",
+  "research_claims": "ENGINEERING ONLY",
+  "result_rows_hash": "f5b166d3fb6e89891028dd06191812e3d351c64839958f46c0d4918cd9ea1d98",
+  "sealed_seed": false,
+  "seed_revealed": true
+}
